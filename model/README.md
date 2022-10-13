@@ -6,6 +6,9 @@ tags:
 - sentence-similarity
 
 ---
+# {Notice}
+One model file is large so I can't upload it on github. So I upload it on google drive https://drive.google.com/file/d/1McSMxMHCiQCd1PPxCGPI721PpShYpu6B/view?usp=sharing
+Please download this file to the model folder before using the model.
 
 # {MODEL_NAME}
 

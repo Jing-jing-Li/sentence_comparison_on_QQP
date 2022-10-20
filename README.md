@@ -7,17 +7,26 @@ This github repository includes:
 (1) data files
 
 * quora_duplicate_questions.tsv
-The original data file. It can be downloaded at https://drive.google.com/file/d/1McSMxMHCiQCd1PPxCGPI721PpShYpu6B/view?usp=sharing , because it is too larget and can not be uploaded to github.
+
+The original data file. It can be downloaded at http://qim.fs.quoracdn.net/quora_duplicate_questions.tsv , because it is too larget and can not be uploaded to github.
 
 * abbreviation.csv
+
 A list of abbreviations. It is used for the comparison of abbreviation part.
 
 (2) data preprocession file
 
 * data_preprocessing.py
-Please download the data files and change the location of data before using it.
+
+Please download the data files and change the path of data files before using it.
 
 (3) count vectorizer part
+
+* count_vectorizer_original.ipynb
+
+Include the application and evaluation of count vectorizer model on QQP dataset.
+
+* 
 
 (4) SBERT part
 

@@ -1,7 +1,10 @@
 # sentence_comparison_on_QQP
 
-# Abstract
+## Abstract
 In my work, I focused on sentence comparison on QQP dataset using count vectorizer method and SBERT method.
+
+## Framework of the repository
+
 This github repository includes:
 
 (1) data files

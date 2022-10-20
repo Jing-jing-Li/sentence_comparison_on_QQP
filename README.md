@@ -26,35 +26,32 @@ Please download the data files and change the path of data files before using it
 
 Include the application and evaluation of count vectorizer model on QQP dataset.
 
-* 
+* count_vectorizer_example.ipynb
+
+Include some examples of question pairs, typos and abbreviation comparison examples.
+
+* count_vectorizer_noun.ipynb
+
+It extract the nouns in sentences and compare the nouns.
 
 (4) SBERT part
 
-One model file is large so I can't upload it on github. So I upload it on google drive https://drive.google.com/file/d/1McSMxMHCiQCd1PPxCGPI721PpShYpu6B/view?usp=sharing
-Please download this file to the model folder before using the model.
+* SBERT_pretraining_evaluation.ipynb
 
-# {MODEL_NAME}
+It use the all-MiniLM-L6-v2 model to classify the question pairs.
 
-This is a [sentence-transformers](https://www.SBERT.net) model: It maps sentences & paragraphs to a 256 dimensional dense vector space and can be used for tasks like clustering or semantic search.
+* SBERT_model_training.ipynb
 
-<!--- Describe your model here -->
+It trained the SBERT model by training set of QQP dataset.
 
-## Usage (Sentence-Transformers)
+* SBERT_training_evaluation.ipynb
 
-Using this model becomes easy when you have [sentence-transformers](https://www.SBERT.net) installed:
+The evaluation of the model trained by QQP dataset.
 
-```
-pip install -U sentence-transformers
-```
+* SBERT_abbreviation_evaluation.ipynb
 
-Then you can use the model like this:
+It evaluated the abbreviations using SBERT model.
 
-```python
-from sentence_transformers import SentenceTransformer
-sentences = ["This is an example sentence", "Each sentence is converted"]
+(5) model
 
-model = SentenceTransformer('{MODEL_NAME}')
-embeddings = model.encode(sentences)
-print(embeddings)
-```
-
+It includes the trained model of SBERT using QQP dataset. However, one file is too large, so please download it on google drive https://drive.google.com/file/d/1McSMxMHCiQCd1PPxCGPI721PpShYpu6B/view?usp=sharing befor using it.

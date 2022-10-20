@@ -67,4 +67,4 @@ It evaluated the abbreviations using SBERT model.
 
 ### (5) model
 
-It includes the trained model of SBERT using QQP dataset. Please put the downloaded model file in this file befor using it.
+It includes the trained model of SBERT using QQP dataset. Please put the downloaded model file in this file before using it.
